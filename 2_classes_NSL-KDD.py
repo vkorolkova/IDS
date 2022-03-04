@@ -1,5 +1,3 @@
-# 2 класса NSL-KDD
-
 import numpy as np
 import pandas as pd
 from sklearn import preprocessing
@@ -66,8 +64,6 @@ Y_train = train[['label']]
 Y = np.where(Y_train=='normal',0,1)
 
 X = train.drop(['label'], axis=1)
-
-X
 
 from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.2)
