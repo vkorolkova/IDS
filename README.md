@@ -1,11 +1,7 @@
-# IDS
+# Intrusion Detection System
 
-В работе рассматриваются алгоритмы машинного обучения, применяемые в системах обнаружения вторжений. 
+Machine learning-based intrusion detection approaches have attracted increasing attention in the network intrusion detection research area because of their intrinsic capabilities in discovering novel attacks. 
 
-С постоянным ростом количества и разнообразия компьютерных атак, требуется обеспечение защиты корпоративных сетей, основанное на нескольких уровнях безопасности.  Система обнаружения вторжений защищает от потенциальных атак с помощью непрерывного мониторинга и является одним из важнейших элементов систем информационной безопасности сетей современных предприятий. 
+In this paper I propose using methods based on machine learning for discovering novel attacks and classification known atacs  in intrusion detection. I consider 
 
-Предложена нейросетевая модель и алгоритмы обнаружения вторжений, повышающие вероятность выявления и качество классификации сетевых атак. 
-
-Исследована эффективность многоклассовой классификации сетевых атак на информационные ресурсы с помощью различных алгоритмов машинного обучения.
-
-В работе рассматривается массив данных NSL-KDD
+Results obtained by applying this approach to the NSL-KDD  dataset demonstrate that the proposed approach performs high determination accuracy.
